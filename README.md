@@ -9,3 +9,9 @@
 - markets
 - products
 - transactions
+
+### The powerbi report contains 4 pages for generating several insights from the data
+- Key Insights
+- Profit Analysis
+- Customer Analysis
+- Performance Insights
