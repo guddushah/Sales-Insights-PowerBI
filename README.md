@@ -80,15 +80,3 @@ https://app.powerbi.com/view?r=eyJrIjoiOGQ0NmZiY2MtNjI3Yy00MmNkLTgyN2YtNDkxNjJhY
 ### Performance View
 ![performance](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/1294ef19-694e-4e90-9718-20973cc863a7)
 
-## db_dump_version_2 database schema contails following tables
-- customers
-- dates
-- markets
-- products
-- transactions
-
-## The powerbi report contains 4 pages for generating several insights from the data
-- Key Insights
-- Profit Analysis
-- Customer Analysis
-- Performance Insights
