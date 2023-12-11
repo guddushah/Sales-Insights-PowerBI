@@ -10,10 +10,9 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
 - AtliQ's has customers on two Platforms
     - Brick and Mortar (Physical)
     - E-Commerce
-- AtliQ sells products to their customers through three Channels
+- AtliQ sells products to their customers through two Channels
 - Retailer (Both Physical and E-Commerce customers)
 - Direct (AtliQ's own Physical and Ecommerce store i.e., AtliQ e-store and AtliQ executive)
-- Distributer (Neptune in China)
 
 ## db_dump_version_2 database schema contails following tables
 - customers
