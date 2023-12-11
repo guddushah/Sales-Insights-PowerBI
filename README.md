@@ -26,7 +26,7 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
 ## Steps for Project Execution
 - Importing db_dump_version_2.sql dump file in MySQL
 - Performing data analysis using SQL queries in MySQL for getting some insights from the database.
-- Connecting Power BI to MySQL server for fetching the data from the database.
+- Connecting Power BI to MySQL server for fetching the data from the database and doing ETL (Extraxt, Transform and Load).
 - Using Power Query for cleaning, modifying, merging tables in Power BI.
 
 ## Data Analysis using SQL
