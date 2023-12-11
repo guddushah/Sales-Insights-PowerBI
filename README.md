@@ -20,7 +20,7 @@ https://app.powerbi.com/view?r=eyJrIjoiOGQ0NmZiY2MtNjI3Yy00MmNkLTgyN2YtNDkxNjJhY
 ## Created Dashboard
 
 ### Revenue View
-![revenue](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/39ddb94d-20a0-43c1-b6bb-3d4f514a4842)
+![revenue](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/1b1cc8a9-b160-478b-9660-72463734fb5f)
 
 ### Profit View
 ![profit](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/6634cedc-bdb8-46bf-8021-aa60a3c7f559)
@@ -29,7 +29,7 @@ https://app.powerbi.com/view?r=eyJrIjoiOGQ0NmZiY2MtNjI3Yy00MmNkLTgyN2YtNDkxNjJhY
 ![customers](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/7a73635b-578c-4c2e-a934-3a7bb179d1a1)
 
 ### Performance View
-![performance](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/aad70b85-3187-4774-8095-5bd5afd16e41)
+![performance](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/1294ef19-694e-4e90-9718-20973cc863a7)
 
 ## db_dump_version_2 database schema contails following tables
 - customers
