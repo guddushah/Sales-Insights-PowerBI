@@ -27,10 +27,12 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
 - Importing db_dump_version_2.sql dump file in MySQL
 - Performing data analysis using SQL queries in MySQL for getting some insights from the database.
 - Connecting Power BI to MySQL server for fetching the data from the database for doing ETL (Extraxt, Transform and Load).
-- Reviewing the Database relationship created by Power BI by default and establishing new relationships between the fact and dimension table.
+- Reviewing the Database relationship created by Power BI by default and establishing new relationships between the tables.
+- Data modelling is done by connecting different tables using a foreign key and primary key. In this project, Star Schema is used for Data Modelling where all the dimension tables are connected with Fact tables
 - Using Power Query for cleaning, modifying, merging tables in Power BI.
 
 ## Data Model Created
+![datamodel](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/eb122b35-40f5-42c0-a1be-0b2bf49c46d9)
 
 ## Data Analysis using SQL
 1. **Show all customer records**                            
@@ -65,8 +67,6 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
 https://app.powerbi.com/view?r=eyJrIjoiOGQ0NmZiY2MtNjI3Yy00MmNkLTgyN2YtNDkxNjJhYTZlODhhIiwidCI6Ijc5OWU3OTRjLTllYWMtNGUxZi05ZjY0LTE0ODhjYjMyMjRlNiJ9&pageName=ReportSection276c0ba0699bccdf4759
 
 ## Created Dashboard
-![datamodel](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/eb122b35-40f5-42c0-a1be-0b2bf49c46d9)
-
 
 ### Revenue View
 ![revenue](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/1b1cc8a9-b160-478b-9660-72463734fb5f)
