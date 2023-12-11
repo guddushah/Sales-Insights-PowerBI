@@ -29,10 +29,7 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
 - Connecting Power BI to MySQL server for fetching the data from the database for doing ETL (Extraxt, Transform and Load).
 - Reviewing the Database relationship created by Power BI by default and establishing new relationships between the tables.
 - Data modelling is done by connecting different tables using a foreign key and primary key. In this project, Star Schema is used for Data Modelling where all the dimension tables are connected with Fact tables
-- Using Power Query for cleaning, modifying, merging tables in Power BI.
-
-## Created Data Model View
-![datamodel](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/eb122b35-40f5-42c0-a1be-0b2bf49c46d9)
+- Using Power Query for cleaning, transforming, merging tables in Power BI.
 
 ## Data Analysis using SQL
 1. **Show all customer records**                            
@@ -62,6 +59,13 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
 - SELECT SUM(transactions.sales_amount)                                               
   FROM transactions INNER JOIN date ON transactions.order_date=date.date                                                       
   WHERE date.year=2020 and transactions.market_code="Mark001";                                                          
+
+## Created Data Model View
+![datamodel](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/eb122b35-40f5-42c0-a1be-0b2bf49c46d9)
+
+## Data Transformation
+- Creating Calculated Cloumn in transaction table
+          - = Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)
 
 ## Dashboard Live here
 https://app.powerbi.com/view?r=eyJrIjoiOGQ0NmZiY2MtNjI3Yy00MmNkLTgyN2YtNDkxNjJhYTZlODhhIiwidCI6Ijc5OWU3OTRjLTllYWMtNGUxZi05ZjY0LTE0ODhjYjMyMjRlNiJ9&pageName=ReportSection276c0ba0699bccdf4759
