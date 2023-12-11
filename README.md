@@ -78,8 +78,9 @@ The created Dashboard basically contains 4 Views - Revenue View, Profit View, Cu
 - From the Revenue View, we can see that 142.2 M was the revenue made by AtliQ in 2020.
 - The highest revenue was earned from Delhi NCR whilst Bhuwaneshwar was recorded the lowest.
 - The highest sales was made in Delhi NCR while the lowest sales was in Patna.
-- The Revenue Trend Chart shows decline in the Revenue earning by the company, this may be because of Covid outbreak.
+- The Revenue Trend Chart shows decline in the Revenue earning by the company every coming month, this may be because of Covid outbreak.
 - Electricalsara was the top customer giving highest revenue in 2020.
+- The top revenue generating product from the View is blank, this is a big issue in data analytics industry, here we should talk to data engineers to do a backfilling in the missing data, then upon refresh, we will get that product.
 
 ### Profit View
 ![profit](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/6634cedc-bdb8-46bf-8021-aa60a3c7f559)
