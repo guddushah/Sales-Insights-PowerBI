@@ -29,7 +29,7 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
 - Connecting Power BI to MySQL server for fetching the data from the database for doing ETL (Extraxt, Transform and Load).
 - Reviewing the Database relationship created by Power BI by default and establishing new relationships between the tables.
 - Data modelling is done by connecting different tables using a foreign key and primary key. In this project, Star Schema is used for Data Modelling where all the dimension tables are connected with Fact tables
-- Using Power Query for cleaning, transforming, merging tables in Power BI.
+- Using Power Query for data cleaning and transformation in Power BI.
 
 ## Data Analysis using SQL
 1. **Show all customer records**                            
@@ -71,9 +71,15 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
 https://app.powerbi.com/view?r=eyJrIjoiOGQ0NmZiY2MtNjI3Yy00MmNkLTgyN2YtNDkxNjJhYTZlODhhIiwidCI6Ijc5OWU3OTRjLTllYWMtNGUxZi05ZjY0LTE0ODhjYjMyMjRlNiJ9&pageName=ReportSection276c0ba0699bccdf4759
 
 ## Created Dashboard
+The created Dashboard basically contains 4 Views - Revenue View, Profit View, Customers View, and Performance View.
 
 ### Revenue View
 ![revenue](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/1b1cc8a9-b160-478b-9660-72463734fb5f)
+- From the Revenue View, we can see that 142.2 M was the revenue made by AtliQ in 2020.
+- The highest revenue was earned from Delhi NCR whilst Bhuwaneshwar was recorded the lowest.
+- The highest sales was made in Delhi NCR while the lowest sales was in Patna.
+- The Revenue Trend Chart shows decline in the Revenue earning by the company, this may be because of Covid outbreak.
+- Electricalsara was the top customer giving highest revenue in 2020.
 
 ### Profit View
 ![profit](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/6634cedc-bdb8-46bf-8021-aa60a3c7f559)
@@ -84,3 +90,6 @@ https://app.powerbi.com/view?r=eyJrIjoiOGQ0NmZiY2MtNjI3Yy00MmNkLTgyN2YtNDkxNjJhY
 ### Performance View
 ![performance](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/1294ef19-694e-4e90-9718-20973cc863a7)
 
+## Key Measures Created using DAX Formulas
+1. **Revenue** = SUM('sales transactions'[norm_sales_amount])
+2. **Sales Qty** = SUM('sales transactions'[sales_qty])
