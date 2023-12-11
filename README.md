@@ -1,7 +1,7 @@
 # Sales Insights
 
 ## Problem Statement:
-AtliQ Hardware is an Indian company specializing in production of computers and perepherals. The Sales Director of the company is facing challenges in tracking the sales in dynamically growing market across India. The Sales Director sees that the overall sales is declining but when communicated with the regional managers, they share vague insights verbally instead of showing the actual picture. Whenever the SD asks actual sales insights, the regional managers send him number of Excel files regarding sales which is simply hard to consume. Therefore, he decides to hire a data analyst to build the Dashboard for the company to know the business performance in different regions, weakest regions to consider for improving business and other business issues. This dashboard will inevetibly help the Sales Director in taking data-driven decisions.
+AtliQ Hardware is an Indian company specializing in production of computers and perepherals. The Sales Director of the company is facing challenges in tracking the sales in dynamically growing market across India. The Sales Director sees that the overall sales is declining but when communicated with the regional managers, they share vague insights verbally instead of showing the actual picture. Whenever the SD asks actual sales insights, the regional managers send him number of Excel files regarding sales which is simply hard to consume. Therefore, he decides to hire a data analyst to build the Dashboard in Power BI for the company to know the sales insights and make data-driven decisions.
 
 ## About AtliQ Hardware
 - AtliQ Hardware is a computer and perepherals manufacturing company in India which manufactures PC, Laptops, Mouse, Keyboard, etc.
@@ -13,6 +13,9 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
 - AtliQ sells products to their customers through two Channels
 - Retailer (Both Physical and E-Commerce customers)
 - Direct (AtliQ's own Physical and Ecommerce store i.e., AtliQ e-store and AtliQ executive)
+
+## Requirements from the Stakeholders
+ performance in different regions, weakest regions to consider for improving business and other business issues. This dashboard will inevetibly help the Sales Director in taking 
 
 ## SQL Database dump file
 - db_dump_version_2.sql
@@ -80,7 +83,7 @@ The created Dashboard basically contains 4 Views - Revenue View, Profit View, Cu
 - The highest sales was made in Delhi NCR while the lowest sales was in Patna.
 - The Revenue Trend Chart shows decline in the Revenue earning by the company every coming month, this may be because of Covid outbreak.
 - Electricalsara was the top customer giving highest revenue in 2020.
-- The top revenue generating product from the View is blank, this is a big issue in data analytics industry, here we should talk to data engineers to do a backfilling in the missing data, then upon refresh, we will get that product.
+- The top revenue generating product from the View is blank, this is a an issue in data analytics industry, here we should talk to data engineers to do a backfilling in the missing data, then upon refresh, we will get that product.
 
 ### Profit View
 ![profit](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/6634cedc-bdb8-46bf-8021-aa60a3c7f559)
