@@ -64,8 +64,8 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
 ![datamodel](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/eb122b35-40f5-42c0-a1be-0b2bf49c46d9)
 
 ## Data Transformation
-- Creating Calculated Cloumn in transaction table                                                                       
-          - = Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)
+- Creating new Cloumn in transaction table                                                                       
+          - Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)
 
 ## Dashboard Live here
 https://app.powerbi.com/view?r=eyJrIjoiOGQ0NmZiY2MtNjI3Yy00MmNkLTgyN2YtNDkxNjJhYTZlODhhIiwidCI6Ijc5OWU3OTRjLTllYWMtNGUxZi05ZjY0LTE0ODhjYjMyMjRlNiJ9&pageName=ReportSection276c0ba0699bccdf4759
