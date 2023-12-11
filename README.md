@@ -31,7 +31,7 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
 - Data modelling is done by connecting different tables using a foreign key and primary key. In this project, Star Schema is used for Data Modelling where all the dimension tables are connected with Fact tables
 - Using Power Query for cleaning, modifying, merging tables in Power BI.
 
-## Data Model Created
+## Created Data Model View
 ![datamodel](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/eb122b35-40f5-42c0-a1be-0b2bf49c46d9)
 
 ## Data Analysis using SQL
