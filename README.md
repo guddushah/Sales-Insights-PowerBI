@@ -14,6 +14,18 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
 - Retailer (Both Physical and E-Commerce customers)
 - Direct (AtliQ's own Physical and Ecommerce store i.e., AtliQ e-store and AtliQ executive)
 
+## SQL Database dump file
+- db_dump_version_2.sql
+#### Tables in the Database
+      - customers
+      - dates
+      - markets
+      - products
+      - transactions
+
+## Data Analysis using SQL in MYSQL
+
+
 ## Dashboard Live here
 https://app.powerbi.com/view?r=eyJrIjoiOGQ0NmZiY2MtNjI3Yy00MmNkLTgyN2YtNDkxNjJhYTZlODhhIiwidCI6Ijc5OWU3OTRjLTllYWMtNGUxZi05ZjY0LTE0ODhjYjMyMjRlNiJ9&pageName=ReportSection276c0ba0699bccdf4759
 
