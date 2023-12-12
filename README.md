@@ -75,7 +75,7 @@ The created Dashboard basically contains 4 Views - Revenue View, Profit View, Cu
 
 ### Revenue View
 ![revenue](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/1b1cc8a9-b160-478b-9660-72463734fb5f)
-- From the Revenue View, we can see that 142.2 M was the revenue made by AtliQ in 2020.
+- From the Revenue View, we can see that 142.2 M was the revenue made by AtliQ in 2020 and 350 k Sales Quantity.
 - The highest revenue was earned from Delhi NCR whilst Bhuwaneshwar was recorded the lowest.
 - The highest sales was made in Delhi NCR while the lowest sales was in Patna.
 - The Revenue Trend Chart shows decline in the Revenue earning by the company every coming month, this may be because of Covid outbreak.
@@ -93,6 +93,10 @@ The created Dashboard basically contains 4 Views - Revenue View, Profit View, Cu
 
 ### Customers View
 ![customers](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/7a73635b-578c-4c2e-a934-3a7bb179d1a1)
+- Customers on Brick & Mortar platform are giving the highest revenue and sales quantity in every regions.
+- Electricalsara Stores is the customer giving highest revenue of 65.6 M on Brick & Mortar platform in 2020.
+- Electricalslytical is the customer on E-Commerce platform giving highest revenue of 5.53 M in 2020.
+- The customers presence is 80 % presence on Brick & Mortar platfrom whilst 20 % in E-Commerce platform in 2020.
 
 ### Performance View
 ![performance](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/1294ef19-694e-4e90-9718-20973cc863a7)
