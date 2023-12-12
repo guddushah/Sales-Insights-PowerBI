@@ -100,6 +100,8 @@ The created Dashboard basically contains 4 Views - Revenue View, Profit View, Cu
 
 ### Performance View
 ![performance](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/1294ef19-694e-4e90-9718-20973cc863a7)
+- In 2020, South region/zone is making highest profit contribution, lowest is North.
+- The profit % slider at the top indicates the target percentage of profi to be achieved. Currently it's set to 2 % profit, the bar for any markets or regions making profit below 2 % will turn red.
 
 ## Key Measures Created using DAX Formulas
 1. **Revenue** = SUM('sales transactions'[norm_sales_amount])
