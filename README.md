@@ -85,7 +85,7 @@ The created Dashboard basically contains 4 Views - Revenue View, Profit View, Cu
 ### Profit View
 ![profit](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/6634cedc-bdb8-46bf-8021-aa60a3c7f559)
 - From Profit View, we can clearly see that Bhubaneshwar is giving the highest profit followed by Hyderabad and Chennai whilst Lucknow is a Loss making region in 2020.
-- By market, Bhuwaneshwar is giving highest return but Mumbai is contributing the most in profit making across India which is nearly one quarter, after than Delhi and Ahmedabad.
+- By market, Bhuwaneshwar is giving highest return but Mumbai is contributing the most in profit making across India which is nearly one quarter (example - If the company is making 100 $ profit across India then 24 $ is coming from Mumbai and 22 $ from Delhi) and then comes Delhi and Ahmedabad.
 - 
 
 ### Customers View
