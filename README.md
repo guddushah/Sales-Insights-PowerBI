@@ -11,9 +11,6 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
     - Brick and Mortar (Physical)
     - E-Commerce
 
-## Requirements from the Stakeholders
- performance in different regions, weakest regions to consider for improving business and other business issues. This dashboard will inevetibly help the Sales Director in taking 
-
 ## SQL Database dump file
 - db_dump_version_2.sql
 #### Tables in the Database
@@ -104,8 +101,8 @@ The created Dashboard basically contains 4 Views - Revenue View, Profit View, Cu
 - The profit % slider at the top indicates the target percentage of profi to be achieved. Currently it's set to 2 % profit, the bar for any regions or markets making profit below 2 % will turn red.
 - Electricalsbea Stores shows makes more than 15 % profit contribution, whilst Electricalsquipo Stores made loss of more than 11 %.
 - When drilled down to profit contribution by product then, we clearly see Prod151 giving 34 % profit across India in 2020 whilst product Product073 and Prod201 is the worst performing product which made loss of 25 % each.
-- From the Revenue Trend chart we see that the revenue is and Profit Margin % is declining every month we compared to the same time last year.
-- 
+- From the Revenue Trend chart we see that the revenue and Profit Margin % is declining every month when compared to the same time last year.
+- Electricalsara Stores contributes nearly half of the revenue earned across India, it is the biggest customer for AtliQ. 
 
 ## Key Measures Created using DAX Formulas
 1. **Revenue** = SUM('sales transactions'[norm_sales_amount])
