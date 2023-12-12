@@ -27,6 +27,9 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
 - Reviewing the Database relationship created by Power BI by default and establishing new relationships between the tables.
 - Data modelling is done by connecting different tables using a foreign key and primary key. In this project, Star Schema is used for Data Modelling where all the dimension tables are connected with Fact tables
 - Using Power Query for data cleaning and transformation in Power BI.
+- Creating calculated columns using more Power Query and DAX formulas (Formulas listed at the bottom). After the columns were created, verified them in either MySQL or Excel file.
+- Starting creating the design work and building the dashboards. 
+- Publishing the fully working dashboard to the Power BI service, providing access to pertinent teams to acquire critical business insights.
 
 ## Data Analysis using SQL
 1. **Show all customer records**                            
@@ -60,7 +63,7 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
 ## Created Data Model View
 ![datamodel](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/eb122b35-40f5-42c0-a1be-0b2bf49c46d9)
 
-## Data Transformation
+## Data Transformation in Power Query
 - Creating new Cloumn in transaction table                                                                       
     - Table.AddColumn(sales_transactions, "norm_sales_amount", each if [currency] = "USD" then [sales_amount]*75 else [sales_amount])
 
