@@ -99,7 +99,7 @@ The created Dashboard basically contains 4 Views - Revenue View, Profit View, Cu
 - The customers presence is 80 % presence on Brick & Mortar platfrom whilst 20 % in E-Commerce platform in 2020.
 
 ### Performance View
-![performance](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/1294ef19-694e-4e90-9718-20973cc863a7)
+![performance1](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/c4690b7d-3721-4c75-88a7-42fd8c917081)
 - In 2020, South region/zone is making highest profit contribution, lowest is North.
 - The profit % slider at the top indicates the target percentage of profi to be achieved. Currently it's set to 2 % profit, the bar for any regions or markets making profit below 2 % will turn red.
 - Electricalsbea Stores shows makes more than 15 % profit contribution, whilst Electricalsquipo Stores made loss of more than 11 %.
