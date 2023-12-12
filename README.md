@@ -102,6 +102,7 @@ The created Dashboard basically contains 4 Views - Revenue View, Profit View, Cu
 ![performance](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/1294ef19-694e-4e90-9718-20973cc863a7)
 - In 2020, South region/zone is making highest profit contribution, lowest is North.
 - The profit % slider at the top indicates the target percentage of profi to be achieved. Currently it's set to 2 % profit, the bar for any regions or markets making profit below 2 % will turn red.
+- Electricalsbea Stores shows makes more than 15 % profit contribution, whilst Electricalsquipo Stores made loss of more than 11 %.
 - When drilled down to profit contribution by product then, we clearly see Prod151 giving 34 % profit across India in 2020 whilst product Product073 and Prod201 is the worst performing product which made loss of 25 % each.
 - From the Revenue Trend chart we see that the revenue is and Profit Margin % is declining every month we compared to the same time last year.
 - 
