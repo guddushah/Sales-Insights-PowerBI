@@ -86,7 +86,9 @@ The created Dashboard basically contains 4 Views - Revenue View, Profit View, Cu
 ![profit](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/6634cedc-bdb8-46bf-8021-aa60a3c7f559)
 - From Profit View, we can clearly see that Bhubaneshwar is giving the highest profit followed by Hyderabad and Chennai whilst Lucknow is a Loss making region in 2020.
 - By market, Bhuwaneshwar is giving highest return but Mumbai is contributing the most in profit making across India which is nearly one quarter (example - If the company is making 100 $ profit across India then 24 $ is coming from Mumbai and 22 $ from Delhi) and then comes Delhi and Ahmedabad.
-- 
+- AtliQ made total profit of 2.06 M in 2020 out of which 15.6 % is contributed by Electricalsbea Stores (highest profit) whilst, the lowest profit making customer is Electricalsquipo Stores which is negative 11 %.
+- Excel Stores contributed the most towards profit making across India in 2020 i.e., 12.54 %
+- Epic Stores is the most loos making customer in 2020.
 
 ### Customers View
 ![customers](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/7a73635b-578c-4c2e-a934-3a7bb179d1a1)
