@@ -89,6 +89,7 @@ The created Dashboard basically contains 4 Views - Revenue View, Profit View, Cu
 - AtliQ made total profit of 2.06 M in 2020 out of which 15.6 % is contributed by Electricalsbea Stores (highest profit) whilst, the lowest profit making customer is Electricalsquipo Stores which is negative 11 %.
 - Excel Stores contributed the most towards profit making across India in 2020 i.e., 12.54 %
 - Epic Stores is the most loos making customer in 2020.
+- Electricalsara Stores is giving the profit of just 0.37 % but it is contributing 11.92 % towards total profit earned by India, here we can say that the company received excessive volume of orders from their consumers.
 
 ### Customers View
 ![customers](https://github.com/guddushah/Sales-Insights-Data-Analysis-PowerBI/assets/40028193/7a73635b-578c-4c2e-a934-3a7bb179d1a1)
