@@ -94,3 +94,11 @@ The created Dashboard basically contains 4 Views - Revenue View, Profit View, Cu
 ## Key Measures Created using DAX Formulas
 1. **Revenue** = SUM('sales transactions'[norm_sales_amount])
 2. **Sales Qty** = SUM('sales transactions'[sales_qty])
+3. **Total Profit Margin** = SUM('sales transactions'[profit_margin])
+4. **Profit Margin %** = DIVIDE(SUM('sales transactions'[profit_margin]),[Revenue],0)
+5. **Profit Margin Contribution %** = DIVIDE([Total Profit Margin],CALCULATE([Total Profit Margin],ALL('sales markets'),ALL('sales customers'),ALL('sales products')))
+6. **Revenue LY** = CALCULATE([Revenue],SAMEPERIODLASTYEAR('sales date'[date]))
+7. **Revenue Contribution %** = DIVIDE([Revenue],CALCULATE([Revenue],ALL('sales markets'),ALL('sales customers'),ALL('sales products')))
+8. **Profit Target** = GENERATESERIES(-0.05, 0.15, 0.01)
+9. **Profit Target Value** = SELECTEDVALUE('Profit Target'[Profit Target])
+10. **Target Diff** = [Profit Margin %]-'Profit Target'[Profit Target Value]
