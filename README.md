@@ -68,7 +68,7 @@ AtliQ Hardware is an Indian company specializing in production of computers and 
     - Table.AddColumn(sales_transactions, "norm_sales_amount", each if [currency] = "USD" then [sales_amount]*75 else [sales_amount])
 
 ## Dashboard Live here
-https://app.powerbi.com/view?r=eyJrIjoiOGQ0NmZiY2MtNjI3Yy00MmNkLTgyN2YtNDkxNjJhYTZlODhhIiwidCI6Ijc5OWU3OTRjLTllYWMtNGUxZi05ZjY0LTE0ODhjYjMyMjRlNiJ9&pageName=ReportSection276c0ba0699bccdf4759
+https://app.powerbi.com/view?r=eyJrIjoiOGUwNDY1MDMtZjY4Zi00NzBlLTkzMTMtZWIwZmM5OWZjOTQ2IiwidCI6IjdlNTIyZTlmLTE0MTAtNDI2My1iOTM2LTkxNTJhNTkyNTY3MSJ9
 
 ## Created Dashboard
 The created Dashboard basically contains 4 Views - Revenue View, Profit View, Customers View, and Performance View.
